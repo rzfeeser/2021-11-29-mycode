@@ -36,13 +36,9 @@ func main() {
     fmt.Scanln(&first)
 
     // Determine the length of the var first
-    if length := len(first); length > 18 {
-        fmt.Println("Screen names have a limit of 18 characters")
-    } else if length > 11 {
-	fmt.Println("Screen names may be larger than 11 characters, but only the first 11 will be displayed")
-    } else {
-        fmt.Println("Your screen name", first, "appears valid")
-    }
+    if length := len(first); length > 11 {
+        fmt.Println("Screen names have a limit of 18 characters \n only the first 11 will be displayed")
+    } if else 
 
 }
 
