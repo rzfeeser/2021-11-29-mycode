@@ -1,6 +1,7 @@
 /* Alta3 Research | Go Essentials
    Function literals - Anonymous     */
 
+// main package
 package main
 
 import (
